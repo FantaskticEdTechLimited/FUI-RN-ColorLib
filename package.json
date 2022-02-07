@@ -1,6 +1,6 @@
 {
   "name": "@fantaskticedtechlimited/fui-rn-colorlib",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "Fantasktic UI React Native Color Library",
   "main": "lib\\commonjs\\index.js",
   "react-native": "src\\index.ts",
@@ -24,7 +24,7 @@
     "prepare": "bob build"
   },
   "files": [
-    "lib/typescript"
+    "lib"
   ],
   "@react-native-community/bob": {
     "source": "src",
