@@ -1,8 +1,11 @@
 {
   "name": "@fantaskticedtechlimited/fui-rn-colorlib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Fantasktic UI React Native Color Library",
   "main": "lib\\commonjs\\index.js",
+  "react-native": "src\\index.ts",
+  "module": "lib\\module\\index.js",
+  "types": "lib\\typescript\\index.d.ts",
   "repository": "https://github.com/FantaskticEdTechLimited/FUI-RN-ColorLib.git",
   "author": "pakmatthew",
   "license": "MIT",
@@ -19,9 +22,6 @@
     "@types/react-native": "^0.66.15",
     "typescript": "^4.5.5"
   },
-  "react-native": "src\\index.ts",
-  "module": "lib\\module\\index.js",
-  "types": "lib\\typescript\\index.d.ts",
   "scripts": {
     "prepare": "bob build"
   },
